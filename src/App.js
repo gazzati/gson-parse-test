@@ -134,7 +134,7 @@ function App() {
                     </tr>
                     </thead>
                     <tbody>
-                    {data.map(item => (findMode? item.name.toLowerCase().includes(searchData)&&
+                    {data.map(item => (findMode? item.name.toLowerCase().includes(searchData.toLowerCase())&&
                         <TableElement
                             key={item.id}
                             name={item.name}
