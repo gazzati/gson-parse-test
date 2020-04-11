@@ -1,3 +1,13 @@
+Тестовое задание: Приложение для парсинга данных с json файла.
+## Приложение опубликовано на gh-pages по адресу https://gazzati.github.io/gsonParse-test/
+
+Данное приложение разработано с использованием библиотеки React.
+
+-Приложение парсит данные которые хранятся с использованием хука useState в json формате и записывает их в соответствующие поля таблицы;
+
+-Приложение умеет сортировать записи по любому из полей и осуществлять поиск по полю Tool name.                  
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
