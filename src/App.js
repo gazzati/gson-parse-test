@@ -76,7 +76,7 @@ function App() {
 
     let [sortState, setSortState] = useState({str: true, column: null});
     let [searchData, setSearchData] = useState(null);
-    let [findMode, setFindMode] = useState(false);
+    let [timeSearchData, setTimeSearchData] = useState(null);
 
 
 
@@ -94,11 +94,18 @@ function App() {
     
     const onSearch = (event) => {
         event.preventDefault();
-        setFindMode(true)
+        setSearchData(timeSearchData)
     }
 
     const onChange = (event) => {
-        setSearchData(event.target.value);
+        setTimeSearchData(event.target.value);
+    }
+
+    const checkSearch = (el) => {
+        if (searchData) {
+            return el['name'].toLowerCase().includes(searchData.toLowerCase())
+        }
+        else return true
     }
 
     return (
@@ -134,20 +141,14 @@ function App() {
                     </tr>
                     </thead>
                     <tbody>
-                    {data.map(item => (findMode? item.name.toLowerCase().includes(searchData.toLowerCase())&&
+                    {data.filter(el => checkSearch(el)).length ? data.filter(el => checkSearch(el)).map(item =>
                         <TableElement
                             key={item.id}
                             name={item.name}
                             sites={item.sites}
                             type={item.type}
-                            status={item.status}/>
-                            : <TableElement
-                                key={item.id}
-                                name={item.name}
-                                sites={item.sites}
-                                type={item.type}
-                                status={item.status}/>
-                    ))}
+                            status={item.status}/>) : null }
+
                     </tbody>
                 </Table>
             </div>
