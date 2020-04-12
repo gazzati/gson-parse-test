@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gsonParse-test/static/css/main.8ac8d0c5.chunk.css",
-    "main.js": "/gsonParse-test/static/js/main.9011fa93.chunk.js",
-    "main.js.map": "/gsonParse-test/static/js/main.9011fa93.chunk.js.map",
+    "main.js": "/gsonParse-test/static/js/main.b815647a.chunk.js",
+    "main.js.map": "/gsonParse-test/static/js/main.b815647a.chunk.js.map",
     "runtime-main.js": "/gsonParse-test/static/js/runtime-main.713080f1.js",
     "runtime-main.js.map": "/gsonParse-test/static/js/runtime-main.713080f1.js.map",
     "static/css/2.de424728.chunk.css": "/gsonParse-test/static/css/2.de424728.chunk.css",
     "static/js/2.48aa9ab2.chunk.js": "/gsonParse-test/static/js/2.48aa9ab2.chunk.js",
     "static/js/2.48aa9ab2.chunk.js.map": "/gsonParse-test/static/js/2.48aa9ab2.chunk.js.map",
     "index.html": "/gsonParse-test/index.html",
-    "precache-manifest.517bf8a260780e5c5acb87528114cbbd.js": "/gsonParse-test/precache-manifest.517bf8a260780e5c5acb87528114cbbd.js",
+    "precache-manifest.c2862125cb58ccbe672678475ae43dfd.js": "/gsonParse-test/precache-manifest.c2862125cb58ccbe672678475ae43dfd.js",
     "service-worker.js": "/gsonParse-test/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/gsonParse-test/static/css/2.de424728.chunk.css.map",
     "static/css/main.8ac8d0c5.chunk.css.map": "/gsonParse-test/static/css/main.8ac8d0c5.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.48aa9ab2.chunk.js",
     "static/css/main.8ac8d0c5.chunk.css",
-    "static/js/main.9011fa93.chunk.js"
+    "static/js/main.b815647a.chunk.js"
   ]
 }

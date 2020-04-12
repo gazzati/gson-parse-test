@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf60252ab51d9d2bbffeb1723c37c8b2",
+    "revision": "e22ed99f49a101f3c8669babfb0a5587",
     "url": "/gsonParse-test/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gsonParse-test/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "e9b8b4d4a06757de5d30",
+    "revision": "d7de1cd73f07e774216d",
     "url": "/gsonParse-test/static/css/main.8ac8d0c5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gsonParse-test/static/js/2.48aa9ab2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9b8b4d4a06757de5d30",
-    "url": "/gsonParse-test/static/js/main.9011fa93.chunk.js"
+    "revision": "d7de1cd73f07e774216d",
+    "url": "/gsonParse-test/static/js/main.b815647a.chunk.js"
   },
   {
     "revision": "1d6ff040fad4022b5e4f",
